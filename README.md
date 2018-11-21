@@ -1,25 +1,25 @@
-# my website about Cinergy2018 project - database and GIS map
+# my website about Solar Belgrade project - database and GIS map
 
-This website is a result of the project Cinergy2018 done within Pioneers into Practice Climate-KIC programme. 
-It is a simple static website and contains link to the database and GIS map application on civic energy in Europe.
+This website is a result of the project Solar Belgrade done within Pioneers into Practice Climate-KIC programme. 
+It is a simple static website and contains link to the database and GIS map application on existing solar power plants in Belgrade in Belgrade, Serbia.
 
 ![alt tag](src/website1.png) 
 
 The website is available on:
-<h2> https://cinergy2018.herokuapp.com/ </h2> 
+<h2> https://solar-belgrade.herokuapp.com/ </h2> 
 
 ## Descritpion and application 
 
 This is a working version of the website, database and GIS map application. Because the project realisation time was very tight I developed 
 a temporary framework which I wish to upgrade in the future. 
-The current solutions is based on the open-source software and platforms, however, they are not enough integrated to avoid manual 
+The current solutions is based mostly on the open-source software and platforms, however, they are not enough integrated to avoid manual 
 data transfer and manipulation. 
 
 ![alt tag](src/workflow_schema.png) 
 
 <br/>The website html is available in :open_file_folder: Heroku_website/index.html 
 <br/>The project PostgreSQL database is available in :open_file_folder: PostgresPostGIS_db/DB_backups/
-<br/>The project QGIS project and data is available in :open_file_folder: QGIS_project/Project/Cinergy2018.qgs
+<br/>The project QGIS project and data is available in :open_file_folder: QGIS_project/Project/SolarBelgrade_Existing_Solar_Panels_git.qgs
 
 ![alt tag](src/mapbrowser.png) 
 
@@ -28,38 +28,24 @@ As this is my really first website it is written with a very basic and simple ht
 It will be also improved and optimized with further project upgrade. 
 
 ``` 
-<header>
-	<div class="title">
-		<h2>Climate Change&Sustainability Project:</h2>
-		<h1>Cinergy2018</h1>
-		<h2>Civic energy across Europe - a good practice 
-		</br>database and web GIS map application</h2>
+<footer>
+  <img id="jolacontact" src="BusinessCard_GeoFenix.png" class="contactjola">
+	<div class="webmaster">
+		<p>"This project was realized during the Pioneers into Practice programme. 
+		Pioneers into Practice is a programme of EIT Climate-KIC. 
+		</br>EIT Climate-KIC is supported by the EIT, a body of the European Union."</p>
+		<p>Project contact details: 
+		</br>solarbelgrade2018@gmail.com</p>
+		<p>Webmaster: JPilch
+		</br> jolanta.pilch85@gmail.com</p>
 	</div>
-	<div class="details">
-		<p> Within: 
-			<a href="https://pioneers.climate-kic.org/" target="_blank">Climate-KIC Pioneers Into Practice Mobility Programme</a>
-			</br>Database framework development, group leader - <a href="#jolacontact">Jolanta Pilch</a> 
-			</br>Database content development: Dorota Russ, Dominik Płatek,
-			</br>Agnieszka Pociecha, Wiktoria Witczak, Sergio Flores
-			</br>Challange owner/company: <a href="https://www.annadylag.pl/">Anna Dyląg</a>, <a href="https://www.abcenergia.pl/">ABC Energia</a>
-		</p>
-	</div>
-	<div class="feedback">
-		<h2>
-			<a href="https://qgiscloud.com/JolaPilch/Cinergy2018/" target="_blank" class="mapbrowser">CINERGY2018 GIS MAP APPLICATION*</a>
-		</h2>
-		<h3>*This is a working version - help us to improve it 
-		<br/>Test the page and send your feedback on: cinergy2018@gmail.com
-		</br ><a href="#instruction">Check how to use the map application</a></h3>
-	</div>
-</header>
+</footer>
 
 ``` 
 
 ## Further Documentation 
 
-:closed_book: No detailed documentation exists yet on the project workflow, however, heroku website contains some simple guidelines 
-how to use the online GIS map application.
+:closed_book: Detailed documentation exists on the project workflow, however, it can be access only on request. Heroku website contains some simple guidelines how to use the online GIS map application.
 
 ![alt tag](src/website2.png)
 
