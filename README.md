@@ -45,7 +45,7 @@ It will be also improved and optimized with further project upgrade.
 
 ## Further Documentation 
 
-:closed_book: Detailed documentation exists on the project workflow, however, it can be access only on request. Heroku website contains some simple guidelines how to use the online GIS map application.
+:closed_book: Detailed documentation exists on the project workflow, however, it can be accessed only on request. Heroku website contains some simple guidelines how to use the online GIS map application.
 
 ![alt tag](src/website2.png)
 
