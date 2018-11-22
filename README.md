@@ -15,8 +15,6 @@ a temporary framework which I wish to upgrade in the future.
 The current solutions is based mostly on the open-source software and platforms, however, they are not enough integrated to avoid manual 
 data transfer and manipulation. 
 
-![alt tag](src/workflow_schema.png) 
-
 <br/>The website html is available in :open_file_folder: Heroku_website/index.html 
 <br/>The project PostgreSQL database is available in :open_file_folder: PostgresPostGIS_db/DB_backups/
 <br/>The project QGIS project and data is available in :open_file_folder: QGIS_project/Project/SolarBelgrade_Existing_Solar_Panels_git.qgs
